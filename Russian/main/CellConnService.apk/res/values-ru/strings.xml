@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Decoded by jBART (BurgerZ <az.burgerz@gmail.com)>-->
+<resources>
+    <string name="app_name">CellConnectionService</string>
+    <string name="button_ok">ОК</string>
+    <string name="button_cancel">Отмена</string>
+    <string name="confirm_radio_title">SIM отключена</string>
+    <string name="confirm_radio_msg">%1$s отключена. Вы хотите включить эту SIM карту?</string>
+    <string name="confirm_radio_msg_single">Включен режим полета, вы хотите его отключить?</string>
+    <string name="confirm_pin_title">SIM заблокирована</string>
+    <string name="confirm_pin_msg">Выбранная SIM карта заблокирована. Сначала разблокируйте ее.</string>
+    <string name="confrim_simmelock_title">SIM ME заблокирована</string>
+    <string name="confirm_simmelock_msg">Выбранный слот SIM заблокирован. Сначала разблокируйте его.</string>
+    <string name="confirm_fdn_title">FDN включен</string>
+    <string name="confirm_fdn_msg">Фиксированный набор включен</string>
+    <string name="confirm_roaming_title">Роуминг</string>
+    <string name="confirm_roaming_msg">SIM карта, котоую вы используете, сейчас в роуминге. Нет доступных локальных SIM карт. Продолжить?</string>
+    <string name="confirm_roaming_withPrefer_msg">SIM карта, котоую вы используете, сейчас в роуминге. Вы хотите использовать локальную SIM карту?</string>
+    <string name="confirm_roaming_lbutton">Продолжить</string>
+    <string name="confirm_roaming_rbutton">Отменить</string>
+    <string name="confirm_roamingWithPrefer_lbutton">Локальная SIM</string>
+    <string name="confirm_roamingWithPrefer_rbutton">Роумиг SIM</string>
+    <string name="confirm_radio_lbutton">Включить</string>
+    <string name="confirm_unlock_lbutton">Разблокировать</string>
+    <string name="confirm_disable_lbutton">Выключить</string>
+    <string name="confirm_unlock_fail">Операция отменена</string>
+    <string name="confirm_turnon_radio_fail">Операция отменена</string>
+    <string name="confirm_permit_roaming_fail">Вы отменили данную операцию на роуминговой SIM</string>
+    <string name="confirm_sim_locked_message">SIM карта была полностью заблокирована</string>
+    <string name="confirm_slot_locked_message">Слот был полностью заблокирован</string>
+</resources>
