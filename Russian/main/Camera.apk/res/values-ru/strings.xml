@@ -73,12 +73,6 @@
     <string name="pref_camera_whitebalance_entry_shade">Тень</string>
     <string name="pref_camera_whitebalance_entry_warm_fluorescent">Дневной свет</string>
     <string name="pref_camera_whitebalance_entry_tungsten">Лампа накаливания</string>
-    <string name="pref_camera_scenemode_title">Режим съемки</string>
-    <string name="pref_camera_scenemode_entry_auto">Авто</string>
-    <string name="pref_camera_scenemode_entry_action">Действие</string>
-    <string name="pref_camera_scenemode_entry_night">Ночь</string>
-    <string name="pref_camera_scenemode_entry_sunset">Закат</string>
-    <string name="pref_camera_scenemode_entry_party">Вечеринка</string>
     <string name="not_selectable_in_scene_mode">Недоступно в режиме съемки</string>
     <string name="pref_restore_title">Настройки камеры</string>
     <string name="pref_restore_detail">По-умолчанию</string>
@@ -197,6 +191,9 @@
     <string name="pref_camera_antibanding_entry_auto">Авто</string>
     <string name="pref_camera_antibanding_entry_50hz">50Hz</string>
     <string name="pref_camera_antibanding_entry_60hz">60Hz</string>
+    <string name="pref_camera_scenemode_title">Режим съемки</string>
+    <string name="pref_camera_scenemode_entry_auto">Авто</string>
+    <string name="pref_camera_scenemode_entry_action">Действие</string>	
     <string name="pref_camera_scenemode_entry_portrait">Портрет</string>
     <string name="pref_camera_scenemode_entry_landscape">Пейзаж</string>
     <string name="pref_camera_scenemode_entry_night">Ночь</string>
