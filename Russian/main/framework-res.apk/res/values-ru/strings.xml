@@ -106,7 +106,7 @@
     <string name="yesterday">Вчера</string>
     <string name="today">Сегодня</string>
     <string name="tomorrow">Завтра</string>
-    <string name="hour_minute_24" formatted="false">%-k:%M</string>
+    <string name="hour_minute_24" formatted="false">%-H:%M</string>
     <string name="hour_minute_ampm" formatted="false">%-l:%M %p</string>
     <string name="hour_minute_cap_ampm" formatted="false">%-l:%M %^p</string>
     <string name="twelve_hour_time_format">h:mm a</string>
@@ -573,6 +573,8 @@
     <string name="permdesc_accessWimaxState">Приложение сможет определять, активирован ли WiMAX, а также получать информацию о подключенных сетях WiMAX.</string>
     <string name="permlab_changeWimaxState">Изменение статуса WiMAX</string>
     <string name="permdesc_changeWimaxState">Приложение сможет подключать устройство к сетям WiMAX и отключать его от них.</string>
+    <string name="permlab_bluetoothAdmin">bluetooth administration</string>
+    <string name="permdesc_bluetoothAdmin">Allows an application to configure the local Bluetooth phone, and to discover and pair with remote devices.</string>
     <string name="permlab_bluetooth">Установление связи с устройствами Bluetooth</string>
     <string name="permdesc_bluetooth">Приложение сможет просматривать конфигурацию Bluetooth на телефоне, а также запрашивать и подтверждать соединение с другими устройствами.</string>
     <string name="permlab_nfc">Управление NFC-модулем</string>
@@ -963,6 +965,7 @@
     <string name="date_picker_dialog_title">Настройка даты</string>
     <string name="date_time_set">Установить</string>
     <string name="default_permission_group">По умолчанию</string>
+    <string name="permissions_format">%1$s, %2$s</string>
     <string name="no_permissions">Не требуется разрешений</string>
     <string name="perms_hide"><b>Скрыть</b></string>
     <string name="perms_show_all"><b>Показать все</b></string>
@@ -1174,6 +1177,7 @@
     <string name="fixed_line">Фиксированная линия</string>
     <string name="reboot_system">Перезагрузка</string>
     <string name="global_action_screenshot">Скриншот</string>
+    <string name="global_action_screenshot_status">Нажмите клавиши Питание и Громкость вниз для того, чтобы сделать снимок экрана</string>
     <string name="reboot_reboot">Перезагрузка</string>
     <string name="reboot_recovery">Рекавери</string>
     <string name="reboot_bootloader">Бутлоадер</string>
