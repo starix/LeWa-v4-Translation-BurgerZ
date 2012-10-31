@@ -17,6 +17,7 @@
     <timezone id="America/New_York">Нью-Йорк</timezone>
     <timezone id="America/Caracas">Каракас</timezone>
     <timezone id="America/Barbados">Барбадос</timezone>
+    <timezone id="America/Halifax">Галифакс</timezone>
     <timezone id="America/Manaus">Манаус</timezone>
     <timezone id="America/Santiago">Сантьяго</timezone>
     <timezone id="America/St_Johns">Сент-Джонс</timezone>
@@ -41,7 +42,7 @@
     <timezone id="Africa/Cairo">Каир</timezone>
     <timezone id="Europe/Helsinki">Хельсинки</timezone>
     <timezone id="Asia/Jerusalem">Иерусалим</timezone>
-    <timezone id="Europe/Minsk">Киев</timezone>
+    <timezone id="Europe/Minsk">Минск</timezone>
     <timezone id="Africa/Harare">Хараре</timezone>
     <timezone id="Asia/Baghdad">Багдад</timezone>
     <timezone id="Europe/Moscow">Москва</timezone>

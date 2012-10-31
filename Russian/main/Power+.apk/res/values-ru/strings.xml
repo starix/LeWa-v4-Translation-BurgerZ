@@ -115,8 +115,9 @@
     <string name="spm_custom_settings_openning_title_smart">Включить в режиме энергосбережения</string>
     <string name="spm_custom_settings_closing_title_smart">Выключить в режиме энергосбережения</string>
     <string name="spm_custom_settings_setting_max_title_smart">Установить максимум в режиме энергосбережения</string>
+    <string name="spm_custom_settings_intelli_other">Прочие</string>
     <string name="spm_custom_settings_intelli_batterylow_title">Низкий уровень заряда!</string>
-    <string name="spm_custom_settings_intelli_batterylow_summy">Установите порог уровня заряда. Текущий порог</string>
+    <string name="spm_custom_settings_intelli_batterylow_summy">Установите порог уровня заряда. Текущий порог </string>
     <string name="spm_battery_low_warnnig_title">Батарея разряжена!</string>
     <string name="spm_battery_low_warnnig_msg">Внимание! Уровень заряда меньше</string>
     <string name="spm_battery_low_warnnig_msg_1">.Открыть приложение энергосбережения?</string>
