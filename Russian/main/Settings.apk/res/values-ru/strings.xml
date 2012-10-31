@@ -20,12 +20,12 @@
     <string name="gemini_roaming_reminder_summary">Предлагать SIM-карту в зависимости от использования SIM-карты</string>
     <string name="gemini_contacts_sim_title">Контакты и SIM-карта</string>
     <string name="gemini_contacts_sim_summary">Привязка контактов к определенной SIM-карте</string>
-    <string name="gemini_voice_call">Голосовой вызов</string>
-    <string name="gemini_video_call">Видеовызов</string>
+    <string name="gemini_voice_call">Голосовые вызовы</string>
+    <string name="gemini_video_call">Видеовызовы</string>
     <string name="gemini_data_connection">Соединение для передачи данных</string>
     <string name="gemini_msg">SMS/MMS</string>
     <string name="gemini_default_sim_always_ask">Всегда спрашивать</string>
-    <string name="gemini_intenet_call">Интернет-вызов</string>
+    <string name="gemini_intenet_call">Интернет-вызовы</string>
     <string name="gemini_default_sim_never">Выкл.</string>
     <string name="gemini_default_sim_3g_off">Выкл.</string>
     <string name="gemini_gsm_umts_network_preferences_title">Настройки сети GSM/UMTS</string>
@@ -71,36 +71,49 @@
     <string name="guide_sim_china_mobile">"China Mobile
 
  GSM
+
+
+
+
+
+
+
+
+
 "</string>
     <string name="guide_sim_china_telecom">"China Telecom
 
  CDMA
+
+
+
+
 "</string>
     <string name="guide_sim_china_unicom">"China Unicom
 
  WCDMA
 "</string>
-    <string name="gemini_sim_tether_info_title">Contacts &amp; SIM</string>
+    <string name="gemini_sim_tether_info_title">Контакты &amp; SIM</string>
     <string name="gemini_sim_tether_add_record">Добавить контакты</string>
     <string name="gemini_sim_add_title">Контакты</string>
-    <string name="gemini_sim_tether_norecord">"У вас нет контактов, асоциированых с данной SIM картой.
+    <string name="gemini_sim_tether_norecord">"С текущей SIM-картой не связан ни один номер контакта.
 
-Для асоциации контактов с SIM катой:
-        
-"<li>Нажмите кнопку <font fgcolor="#ffffffff"><b>Добавить контакты</b></font>" 
+Процедура связывания номера контакта с этой SIM-картой:
+
+ "<li>Нажмите кнопку « <font fgcolor="#ffffffff"> <b>Добавить контакты</b> </font>"».
 "</li>" 
-"<li>"Выберите контакты, которые вы хотите асоциировать с данной SIM картой
+ "<li>"Выберите контакт, который требуется связать с этой SIM-картой.
 "</li>" 
-"<li>Нажмите кнопку <font fgcolor="#ffffffff"><b>Сохранить</b></font>" для сохранения изменений
+ "<li>Нажмите кнопку « <font fgcolor="#ffffffff"> <b>Сохранить</b> </font>"», чтобы сохранить изменение.
 "</li>" "</string>
-    <string name="gemini_sim_tether_nocontacts">"You don't have any contacts to display.
+    <string name="gemini_sim_tether_nocontacts">"Нет контактов для отображения.
 
-To add contacts, you can:
-        
-"<li><font fgcolor="#ffffffff"><b>"Add new contact to create a new contact from scratch
-"</b></font></li>" 
-"<li>Additionally, you can press menu and touch <font fgcolor="#ffffffff"><b>Import/Export</b></font>" for further handlings
-"</li>"
+Добавить контакты можно следующим образом:
+
+ "<li> <font fgcolor="#ffffffff"> <b>добавить новый контакт</b> </font>" для создания контакта с нуля;
+ "</li>"
+ "<li>также можно нажать кнопку меню, а затем выбрать пункт « <font fgcolor="#ffffffff"> <b>Импорт, экспорт</b> </font>"» для перехода к следующим шагам.
+ "</li>"
 "</string>
     <string name="gemini_sim_tether_nocontact_confirm">OK</string>
     <string name="gemini_sim_tether_select_all">Выбрать все</string>
@@ -152,7 +165,7 @@ To add contacts, you can:
     <string name="medium_font">Среднее</string>
     <string name="large_font">Крупный</string>
     <string name="font_size_preview_text">Съешь же ещё этих мягких французских булок, да выпей чаю.</string>
-    <string name="font_size_save">OK</string>
+    <string name="font_size_save">ОК</string>
     <string name="sdcard_setting">SD-карта</string>
     <string name="battery_info_status_label">Состояние батареи:</string>
     <string name="battery_info_power_label">Вилка питания:</string>
@@ -174,7 +187,7 @@ To add contacts, you can:
     <string name="battery_info_status_charging_usb">(от USB)</string>
     <string name="battery_info_status_discharging">Разрядка</string>
     <string name="battery_info_status_not_charging">Нет зарядки</string>
-    <string name="battery_info_status_full">Полный</string>
+    <string name="battery_info_status_full">Заряжена полностью</string>
     <string name="battery_info_power_unplugged">Отсоединено</string>
     <string name="battery_info_power_ac">Питание от сети</string>
     <string name="battery_info_power_usb">USB</string>
@@ -335,7 +348,7 @@ To add contacts, you can:
     <string name="ok">OK</string>
     <string name="settings_label">Настройки</string>
     <string name="settings_label_launcher">Настройки</string>
-    <string name="settings_shortcut">Ярлык для параметров</string>
+    <string name="settings_shortcut">Ярлык для настроек</string>
     <string name="airplane_mode">Режим полета</string>
     <string name="radio_controls_title">Еще…</string>
     <string name="wireless_networks_settings_title">БЕСПРОВОДНЫЕ СРЕДСТВА И СЕТИ</string>
@@ -367,15 +380,15 @@ To add contacts, you can:
     <string name="zone_list_menu_sort_by_timezone">Сортировать по часовым поясам</string>
     <string name="date_picker_title">Дата</string>
     <string name="time_picker_title">Время</string>
-    <string name="biometric_weak_improve_matching_title">Improve face matching</string>
+    <string name="biometric_weak_improve_matching_title">Улучшить соответствие лица</string>
     <string name="lock_after_timeout">Автоматическая блокировка</string>
     <string name="lock_after_timeout_summary">%1$s после спящего режима</string>
     <string name="show_owner_info_on_lockscreen_label">Отображать инф. о владельце на экране блокировки</string>
     <string name="owner_info_settings_title">Информация о владельце</string>
     <string name="owner_info_settings_summary" />
     <string name="owner_info_settings_edit_text_hint">Введите текст для показа на экране блокировки</string>
-    <string name="location_settings_title">Услуги определения местоположения</string>
-    <string name="security_settings_title">Защита</string>
+    <string name="location_settings_title">Настройки GPS</string>
+    <string name="security_settings_title">Безопасность</string>
     <string name="security_settings_summary">Установка Мое местоположение, разблокирование экрана, блокировки SIM-карты, блокировка хранилища сертификатов</string>
     <string name="cdma_security_settings_summary">Установка Мое местоположение, разблокирование экрана, блокировка хранилища сертификатов</string>
     <string name="security_passwords_title">Пароли</string>
@@ -414,7 +427,7 @@ To add contacts, you can:
     <string name="unlock_set_unlock_none_summary">Без защиты</string>
     <string name="unlock_set_unlock_biometric_weak_title">Разблокировка по лицу</string>
     <string name="unlock_set_unlock_biometric_weak_summary">Низкая степень защиты, пробная</string>
-    <string name="unlock_set_unlock_pattern_title">Метод</string>
+    <string name="unlock_set_unlock_pattern_title">Графический ключ</string>
     <string name="unlock_set_unlock_pattern_summary">Средняя степень защиты</string>
     <string name="unlock_set_unlock_pin_title">PIN-код</string>
     <string name="unlock_set_unlock_pin_summary">Степень защиты от средней до высокой</string>
@@ -541,7 +554,7 @@ To add contacts, you can:
     <string name="wifi_quick_toggle_title">Wi-Fi</string>
     <string name="wifi_quick_toggle_summary">Включить Wi-Fi</string>
     <string name="wifi_settings">Wi-Fi</string>
-    <string name="wifi_settings_category">Wi-Fi settings</string>
+    <string name="wifi_settings_category">Параметры Wi-Fi</string>
     <string name="wifi_settings_title">Wi-Fi</string>
     <string name="wifi_settings_summary">Настройка и управление беспроводными точками доступа</string>
     <string name="wifi_starting">Включение Wi-Fi…</string>
@@ -615,9 +628,9 @@ To add contacts, you can:
     <string name="wifi_security_psk_generic">@string/wifi_security_wpa_wpa2</string>
     <string name="wifi_security_eap">802.1x EAP</string>
     <string name="wifi_connect">Подключить</string>
-    <string name="wifi_forget">Отключить</string>
+    <string name="wifi_forget">Исключить</string>
     <string name="wifi_save">Сохранить</string>
-    <string name="wifi_cancel">Отмена</string>
+    <string name="wifi_cancel">Отклонить</string>
     <string name="wifi_wps_overlap_error">Обнаружен другой защищенный сеанс Wi-Fi. Повторите через неск. минут.</string>
     <string name="wifi_advanced_titlebar">Дополнительные параметры Wi-Fi</string>
     <string name="wifi_setting_frequency_band_title">Диапазон частот Wi-Fi</string>
@@ -688,7 +701,7 @@ To add contacts, you can:
     <string name="wifi_state_unknown">Unknown</string>
     <string name="wifi_config_info">Wi-Fi config</string>
     <string name="config_list_label">Configured networks</string>
-    <string name="display_settings_title">Отображение</string>
+    <string name="display_settings_title">Настройки экрана</string>
     <string name="dock_settings">Док-станция</string>
     <string name="dock_settings_title">Настройки док-станции</string>
     <string name="dock_audio_settings_title">Аудио</string>
@@ -701,22 +714,22 @@ To add contacts, you can:
     <string name="dock_sounds_enable_title">Звук вставки в док-станцию</string>
     <string name="dock_sounds_enable_summary_on">Воспроизводить звук при установке или извлечении телефона</string>
     <string name="dock_sounds_enable_summary_off">Не воспроизводить звук при установке или извлечении телефона</string>
-    <string name="sync_settings">Учетные записи и синхронизация</string>
+    <string name="sync_settings">Аккаунты и синхронизация</string>
     <string name="search_settings">Поиск</string>
     <string name="search_settings_summary">Управление параметрами поиска и историей</string>
-    <string name="display_settings">Отображение</string>
+    <string name="display_settings">Настройки экрана</string>
     <string name="accelerometer_title">Автоповорот экрана</string>
     <string name="accelerometer_summary_on">Автоматически менять ориентацию экрана при повороте телефона</string>
     <string name="accelerometer_summary_off">Автоматически менять ориентацию экрана при повороте телефона</string>
     <string name="brightness">Яркость</string>
     <string name="brightness_summary">Регулировка уровня яркости экрана</string>
-    <string name="proximity_title">Calibrate Proximity Sensor</string>
-    <string name="proximity_dialog_title">Calibrate Hint</string>
-    <string name="proximity_summary">Please keep unblocked by anything in the 20cm sensing range, and avoid radiated by sunlight !</string>
-    <string name="proximity_msg_sucess">Calibrate OK!</string>
-    <string name="proximity_msg_failed">Calibrate FAILED!</string>
-    <string name="proximity_calib_ok">OK</string>
-    <string name="proximity_calib_failed">FAILED</string>
+    <string name="proximity_title">Калибровка датчика приближения</string>
+    <string name="proximity_dialog_title">Калибровка</string>
+    <string name="proximity_summary">Обратите внимание на то, что датчик не может быть заблокирован в пределах более 2 см. И следует избегать прямых солнечных лучей!</string>
+    <string name="proximity_msg_sucess">Калибровка прошла успешно.</string>
+    <string name="proximity_msg_failed">Ошибка калибровки.</string>
+    <string name="proximity_calib_ok">Да</string>
+    <string name="proximity_calib_failed">Нет</string>
     <string name="screen_timeout">Спящий режим</string>
     <string name="screen_timeout_CU">Время ожидания экрана</string>
     <string name="screen_timeout_summary">После %1$s бездействия</string>
@@ -745,7 +758,7 @@ To add contacts, you can:
     <string name="sim_disable_sim_lock">Разблокировать SIM-карту</string>
     <string name="sim_enter_old">Действующий PIN-код SIM-карты</string>
     <string name="sim_enter_new">Новый PIN-код SIM-карты</string>
-    <string name="sim_enter_pin_hints">(Input 4-8 digitals)</string>
+    <string name="sim_enter_pin_hints">(Введите 4-8 цифр)</string>
     <string name="sim_reenter_new">Введите новый PIN повторно</string>
     <string name="sim_change_pin">PIN-код SIM-карты</string>
     <string name="sim_bad_pin">Неверный PIN-код</string>
@@ -762,7 +775,7 @@ To add contacts, you can:
     <string name="system_update_settings_list_item_summary" />
     <string name="firmware_version">Версия OC Android</string>
     <string name="model_number">Номер модели</string>
-    <string name="baseband_version">Версия модулирующей полосы частот</string>
+    <string name="baseband_version">Версия ПО модуля связи</string>
     <string name="kernel_version">Версия ядра</string>
     <string name="build_number">Номер сборки</string>
     <string name="device_info_not_available">Не доступно</string>
@@ -794,8 +807,8 @@ To add contacts, you can:
     <string name="status_awake_time">Время активной загрузки процессора</string>
     <string name="internal_memory">Внутренняя память</string>
     <string name="sd_memory">SD-карта</string>
-    <string name="memory_available">Доступен</string>
-    <string name="memory_size">Все пространства</string>
+    <string name="memory_available">Доступно</string>
+    <string name="memory_size">Общий объём</string>
     <string name="memory_calculating_size">Идет подсчет...</string>
     <string name="memory_apps_usage">Приложения</string>
     <string name="memory_media_usage">Носитель</string>
@@ -807,8 +820,8 @@ To add contacts, you can:
     <string name="sd_eject_usbstorage">Отключить USB-накопитель</string>
     <string name="sd_eject_summary">Отключение SD-карты для ее безопасного извлечения из устройства</string>
     <string name="sd_eject_usbstorage_summary">Отключить внутр. USB-накопитель</string>
-    <string name="sd_insert_summary">Вставьте SD-карту для подключения</string>
     <string name="sd_insert_usb_summary">Вставить USB-накопитель</string>
+    <string name="sd_insert_summary">Вставьте SD-карту для подключения</string>
     <string name="sd_mount">Подключить SD-карту</string>
     <string name="sd_mount_usbstorage">Подключить USB-накопитель</string>
     <string name="sd_mount_summary" />
@@ -830,10 +843,14 @@ To add contacts, you can:
     <string name="storage_menu_usb">USB-подключение к компьютеру</string>
     <string name="storage_title_usb">USB-подключение к компьютеру</string>
     <string name="usb_connection_category">Подключить как</string>
+    <string name="usb_ums_title">USB-накопитель</string>
+    <string name="usb_ums_summary">Рекомендуется ОС XP. Позволяет передавать файлы между компьютером и USB-накопителем Android</string>
     <string name="usb_mtp_title">Мультимедиа-устройство (MTP)</string>
-    <string name="usb_mtp_summary">Разрешить передачу файлов мультимедиа в Windows или, с помощью приложения Android File Transfer, в компьютер Macintosh (см. www.android.com/filetransfer)</string>
-    <string name="usb_ptp_title">Камера (PTP)</string>
+    <string name="usb_mtp_summary">Рекомендуется ОС WIN7 или более новой версии, в ОС XP сначала требуется установить драйверы. Позволяет выполнять файловые операции одновременно на телефоне и компьютере.</string>
+    <string name="usb_ptp_title">Камера</string>
     <string name="usb_ptp_summary">Позволяет передавать фотографии с помощью программного обеспечения камеры, а также передавать любые файлы на компьютеры, которые не поддерживают MTP</string>
+    <string name="usb_charge_title">Charge only</string>
+    <string name="usb_charge_summary">Stop all USB fuctions.Lets you speed up USB charging and decrease power consumption.</string>
     <string name="usb_label_installer_cd">Установить средства передачи файлов</string>
     <string name="battery_status_title">Состояние батареи</string>
     <string name="battery_level_title">Уровень заряда батареи</string>
@@ -889,7 +906,8 @@ To add contacts, you can:
 "</string>
     <string name="master_clear_desc_also_erases_external">" "<li>Музыка</li>"
  "<li>Фото</li>"
- "<li>Другие данные пользователя</li></string>
+ "<li>Другие данные пользователя</li>"
+"</string>
     <string name="master_clear_desc_erase_external_storage">"
 
 Чтобы удалить музыку, фотографии и другие пользовательские данные, необходимо очистить  "<b>SD-карту</b>". "</string>
@@ -973,7 +991,7 @@ To add contacts, you can:
     <string name="lockpassword_password_set_toast">Установлен пароль</string>
     <string name="lockpassword_pin_set_toast">Установлен PIN-код</string>
     <string name="lockpassword_pattern_set_toast">Установлена фигура</string>
-    <string name="lock_settings_title">Защита экрана</string>
+    <string name="lock_settings_title">Блокировка экрана</string>
     <string name="lockpattern_change_lock_pattern_label">Изменить фигуру для разблокирования</string>
     <string name="lockpattern_change_lock_pin_label">Изменить PIN-код разблокирования</string>
     <string name="lockpattern_need_to_unlock">Подтвердить сохраненную фигуру</string>
@@ -996,6 +1014,7 @@ To add contacts, you can:
     <string name="lockpattern_settings_enable_summary">Для разблокирования экрана следует нарисовать фигуру</string>
     <string name="lockpattern_settings_enable_visible_pattern_title">Показывать фигуру</string>
     <string name="lockpattern_settings_enable_tactile_feedback_title">Вибрация при касании</string>
+    <string name="lockpattern_settings_enable_power_button_instantly_locks">Блокирование кнопкой выключения</string>
     <string name="lockpattern_settings_choose_lock_pattern">Задать разблокирование фигурой</string>
     <string name="lockpattern_settings_change_lock_pattern">Изменить фигуру для разблокирования</string>
     <string name="lockpattern_settings_help_how_to_record">Рисование фигуры для разблокирования</string>
@@ -1053,7 +1072,7 @@ To add contacts, you can:
     <string name="filter_dlg_title">Выбор параметров фильтра</string>
     <string name="filter_apps_all">Все</string>
     <string name="filter_apps_third_party">Загружено</string>
-    <string name="filter_apps_running">Запущено</string>
+    <string name="filter_apps_running">Работающие</string>
     <string name="filter_apps_onsdcard">На SD-карте</string>
     <string name="disabled">Отключено</string>
     <string name="no_applications">Нет приложений</string>
@@ -1142,7 +1161,7 @@ To add contacts, you can:
     <string name="show_password_summary" />
     <string name="ime_security_warning">Этот метод ввода позволяет собирать весь вводимый текст, включая личные данные, такие как пароли и номера кредитных карт. Инициирован приложением %1$s. Использовать этот метод ввода?</string>
     <string name="spellchecker_security_warning">Эта проверка орфографии позволяет собирать весь вводимый текст, включая личные данные, такие как пароли и номера кредитных карт. Инициирована приложением %1$s. Использовать эту проверку орфографии?</string>
-    <string name="pointer_settings_category">Мышь/сенсорная панель</string>
+    <string name="pointer_settings_category">Мышь и сенсорная панель</string>
     <string name="pointer_speed">Скорость указателя</string>
     <string name="user_dict_settings_titlebar">Словарь пользователя</string>
     <string name="user_dict_single_settings_title">Личный словарь</string>
@@ -1216,7 +1235,7 @@ To add contacts, you can:
     <string name="accessibility_services_title">Службы</string>
     <string name="accessibility_system_title">Система</string>
     <string name="accessibility_toggle_large_text_title">Большой текст</string>
-    <string name="accessibility_power_button_ends_call_title">Завершение вызова кнопкой питания</string>
+    <string name="accessibility_power_button_ends_call_title">Завершение вызова кн. питания</string>
     <string name="accessibility_speak_password_title">Произнесение паролей</string>
     <string name="accessibility_touch_exploration_title">Обзор касанием</string>
     <string name="accessibility_touch_exploration_summary">"Функция \"Изучение касанием\" позволяет прослушивать или просматривать описание элементов, которых вы касаетесь.
@@ -1385,8 +1404,8 @@ To add contacts, you can:
     <string name="credentials_configure_lock_screen_hint">Прежде чем использовать хранилище учетных данных, необходимо задать PIN-код или пароль для блокировки экрана.</string>
     <string name="emergency_tone_title">Экстренный зуммер</string>
     <string name="emergency_tone_summary">Настройка поведения при выполнении экстренного вызова</string>
-    <string name="privacy_settings">Резервное копирование и сброс</string>
-    <string name="privacy_settings_title">Резервное копирование и сброс</string>
+    <string name="privacy_settings">Восстановление и сброс</string>
+    <string name="privacy_settings_title">Восстановление и сброс</string>
     <string name="backup_section_title">Резервное копирование и восстановление</string>
     <string name="personal_data_section_title">Личные данные</string>
     <string name="backup_data_title">Резервное копирование данных пользователя</string>
@@ -1400,7 +1419,7 @@ To add contacts, you can:
     <string name="local_backup_password_summary_change">Выберите для изменения или удаления пароля для полных резервных копий рабочего стола</string>
     <string name="backup_erase_dialog_title" />
     <string name="backup_erase_dialog_message">Остановить резервное копирование паролей Wi-Fi, закладок, других параметров и данных приложения, а также стереть все копии на серверах Google?</string>
-    <string name="schedule_power_on_off_settings_title">Расписание вкл./выкл. питания</string>
+    <string name="schedule_power_on_off_settings_title">Планировщик питания</string>
     <string name="schedule_power_on_off_time">Время</string>
     <string name="schedule_power_on_off_repeat">Повторить</string>
     <string name="schedule_power_on_off_set">Установка расписания вкл./выкл. питания</string>
@@ -1541,7 +1560,7 @@ To add contacts, you can:
     <string name="app_process_limit_title">Огр. на фоновые процессы</string>
     <string name="show_all_anrs">Показать все ANR</string>
     <string name="show_all_anrs_summary">Пок.все диалоги ANR(прил.не отвечает)для фон.прил.</string>
-    <string name="data_usage_summary_title">Трафик</string>
+    <string name="data_usage_summary_title">Мобильный трафик</string>
     <string name="data_usage_cycle">Цикл расхода трафика</string>
     <string name="data_usage_menu_roaming">Роуминг передачи данных</string>
     <string name="data_usage_menu_restrict_background">Огр. фоновый трафик</string>
@@ -1550,7 +1569,7 @@ To add contacts, you can:
     <string name="data_usage_menu_show_ethernet">Показать использование Ethernet</string>
     <string name="data_usage_change_cycle">Изменить цикл…</string>
     <string name="data_usage_pick_cycle_day">День месяца для сброса цикла расхода трафика:</string>
-    <string name="data_usage_empty">Нет прилож., потребивших трафик в этот период.</string>
+    <string name="data_usage_empty">Нет приложений, потребивших трафик в этот период.</string>
     <string name="data_usage_label_foreground">Приоритетный трафик</string>
     <string name="data_usage_label_background">Фоновый трафик</string>
     <string name="data_usage_disclaimer">Определено устройством. Объем трафика, учтенный оператором, может отличаться.</string>
@@ -1566,7 +1585,7 @@ To add contacts, you can:
     <string name="data_usage_tab_3g">2G-3G</string>
     <string name="data_usage_list_mobile">мобильный</string>
     <string name="data_usage_list_none">Нет</string>
-    <string name="data_usage_enable_mobile">Трафик мобильной связи</string>
+    <string name="data_usage_enable_mobile">Мобильный трафик</string>
     <string name="data_usage_enable_3g">2G-3G-трафик</string>
     <string name="data_usage_enable_4g">4G-трафик</string>
     <string name="data_usage_app_settings">Просмотреть параметры приложен.</string>
@@ -1686,7 +1705,7 @@ To add contacts, you can:
     <string name="hdmi_notification_content">Щелкните для настройки HDMI</string>
     <string name="epo_entrance_title">Параметры EPO</string>
     <string name="epo_entrance_summary">Нажмите для изменения конфигурации EPO</string>
-    <string name="epo_enable_title">Вспомогательные данные GPS EPO</string>
+    <string name="epo_enable_title">Данные GPS EPO</string>
     <string name="epo_enable_summary">Использовать вспомогательные данные GPS (EPO) для ускорения GPS-позиционирования.</string>
     <string name="epo_enable_confirm_title">Подтверждение включения EPO</string>
     <string name="epo_enable_confirm_message">Для получения вспомогательных данных GPS (EPO) требуется беспроводное соединение для передачи данных, за что может взиматься дополнительная плата. Включить использование вспомогательных данных GPS?</string>
@@ -1702,8 +1721,7 @@ To add contacts, you can:
     <string name="epo_status_undefined">Статус не определен</string>
     <string name="epo_conf_title">Параметры</string>
     <string name="epo_info_title">Сведения о файлах EPO</string>
-    <string name="epo_introduction">"\u0009EPO (Extended Prediction Orbit) – одна из инновационных фирменных технологий A-GPS MediaTek на основе автономных серверов.
-\u0009Она поддерживает предсказание орбит спутников на срок до 30 дней, эти предсказания могут использоваться для сокращения времени первого определения координат GPS (TTFF)."</string>
+    <string name="epo_introduction">"EPO (Extended Prediction Orbit) – одна из инновационных фирменных технологий A-GPS MediaTek на основе автономных серверов. Она поддерживает предсказание орбит спутников на срок до 30 дней, эти предсказания могут использоваться для сокращения времени первого определения координат GPS (TTFF)."</string>
     <string name="epo_auto_download_title">Автозагрузка</string>
     <string name="epo_auto_download_summary">Автоматически загружать данные о положении спутников</string>
     <string name="epo_roaming_download_title">Роуминг передачи данных</string>
@@ -1736,7 +1754,7 @@ To add contacts, you can:
     <string name="epo_ok_btn">OK</string>
     <string name="epo_error_no_activite_network">Включите соединение для передачи данных перед загрузкой данных EPO.</string>
     <string name="epo_about_title">Сведения о EPO</string>
-    <string name="epo_about_message">"\u0009EPO (Extended Prediction Orbit) – одна из инновационных фирменных технологий A-GPS MediaTek на основе автономных серверов.
+    <string name="epo_about_message">"\u0009EPO (Extended Prediction Orbit) – одна из инновационных фирменных технологий A-GPS MediaTek на основе автономных серверов. 
 \u0009Она поддерживает предсказание орбит спутников на срок до 30 дней, эти предсказания могут использоваться для сокращения времени первого определения координат GPS (TTFF)."</string>
     <string name="epo_err_network_disabled">Сеть отключена</string>
     <string name="epo_err_connection_server_unknown">Неизвестный сервер</string>
@@ -1978,6 +1996,9 @@ To add contacts, you can:
     <string name="notify_duration_list_dialogTitle">Выбор продолжительности уведомления</string>
     <string name="verify_duration_list_title">Продолжительность проверки</string>
     <string name="verify_duration_list_dialogTitle">Выбор продолжительности проверки</string>
+    <string name="eCID_Enable_Title">Enchanced Cell ID</string>
+    <string name="eCID_enable_summary_on">Use Enchanced Cell ID method</string>
+    <string name="eCID_enable_summary_off">Use Cell ID method</string>
     <string name="drm_settings_title">Сброс DRM</string>
     <string name="drm_settings_summary">Удаление всех DRM-лицензий</string>
     <string name="drm_settings">Параметры DRM</string>
@@ -2052,8 +2073,8 @@ To add contacts, you can:
     <string name="Query_content">Запрос</string>
     <string name="QueryResult_content">Выполните ввод запроса</string>
     <string name="location_cellquery_label">Запрос местоположения по сотовой сети</string>
-    <string name="sim_status_title">Состояние SIM-карты</string>
-    <string name="sim_status_summary">Информация о SIM-карте</string>
+    <string name="sim_status_title">Информация о SIM-картах</string>
+    <string name="sim_status_summary">Информация о SIM-картах и сети</string>
     <string name="status_imei_slot1">IMEI (слот 1)</string>
     <string name="status_imei_sv_slot1">IMEI SV (слот 1)</string>
     <string name="status_imei_slot2">IMEI (слот 2)</string>
@@ -2077,16 +2098,21 @@ To add contacts, you can:
     <string name="wimax_settings">Настройки 4G</string>
     <string name="wimax_settings_summary">Подключение и настройка сети и модема 4G</string>
     <string name="status_wimax_mac_address">МАС-адрес для 4G</string>
+    <string name="ring_summary">Звонок</string>
+    <string name="ring_vibrate_summary">Звонок и вибрация</string>
+    <string name="silent_summary">Тихий режим</string>
+    <string name="meeting_summary">Только вибрация</string>
+    <string name="outdoor_summary">Самый громкий звонок и вибрация</string>
     <string name="Phone_vibrate_summary">Вибрация при входящих вызовах</string>
     <string name="voice_call_title">Мелодия звонка речевого вызова</string>
     <string name="voice_call_summary">Установите мелодию звонка для входящих речевых вызовов по умолчанию</string>
     <string name="video_call_title">Мелодия звонка видеовызова</string>
     <string name="video_call_summary">Установите мелодию звонка для входящих видеовызовов по умолчанию</string>
-    <string name="audio_profile_settings_title">Профили звука</string>
+    <string name="audio_profile_settings_title">Настройки звука</string>
     <string name="audio_profile_settings">Редактировать профиль</string>
     <string name="audio_profile_settings_Edit">Редактировать профиль %s</string>
-    <string name="audio_profile_category_predefine_title">Стандартные профили</string>
-    <string name="audio_profile_category_custom_title">Пользовательские профили</string>
+    <string name="audio_profile_category_predefine_title">Стандартные:</string>
+    <string name="audio_profile_category_custom_title">Пользовательские:</string>
     <string name="audio_profile_reset">Сброс</string>
     <string name="audio_profile_add">Добавить</string>
     <string name="audio_profile_enable">Включить</string>
@@ -2103,11 +2129,12 @@ To add contacts, you can:
     <string name="enable">Включить</string>
     <string name="sound_settings">Звук</string>
     <string name="silent_mode_title">Тихий режим</string>
-    <string name="ringtone_summary" />
+    <string name="ringtone_summary">Установить мелодию звонка для входящих вызовов по умолчанию</string>
     <string name="all_volume_title">Уровни громкости</string>
     <string name="musicfx_title">Музыкальные эффекты</string>
     <string name="ring_volume_title">Громкость звонка</string>
     <string name="vibrate_in_silent_title">Вибро в тихом режиме</string>
+    <string name="vibrate_on_ring_title">Вибрация и звонок</string>
     <string name="vibrate_title">Вибрация</string>
     <string name="notification_sound_title">Стандартное уведомление</string>
     <string name="notification_pulse_title">Мигающее световое уведомление</string>
@@ -2115,7 +2142,7 @@ To add contacts, you can:
     <string name="notification_volume_title">Уведомление</string>
     <string name="checkbox_notification_same_as_incoming_call">Использовать уровень громкости входящего вызова для уведомлений</string>
     <string name="notification_sound_dialog_title">Выбор рингтона для уведомления</string>
-    <string name="media_volume_title">Носитель</string>
+    <string name="media_volume_title">Мультимедиа</string>
     <string name="media_volume_summary">Установка уровня громкости для музыки и видео</string>
     <string name="alarm_volume_title">Сигнал</string>
     <string name="dock_settings_summary">Параметры аудио для прикрепленной док-станции</string>
@@ -2128,6 +2155,8 @@ To add contacts, you can:
     <string name="volume_ring_description">Рингтон и уведомления</string>
     <string name="volume_notification_description">Оповещения</string>
     <string name="volume_alarm_description">Сигналы</string>
+    <string name="media_volume_description">Media(Music、Video、Game etc)</string>
+    <string name="system_volume_description">System(Photograph、Screenshot、ButtonClick)</string>
     <string name="general_settings_title">Обычный</string>
     <string name="silent_settings_title">Без звука</string>
     <string name="meeting_settings_title">Совещание</string>
@@ -2148,8 +2177,8 @@ To add contacts, you can:
     <string name="wifi_proxy_context_menu_delete">Удалить элемент</string>
     <string name="wifi_proxy_exclude_ip">Исключать IP</string>
     <string name="wifi_proxy_exclude_ip_err_msg">Неверный IP-адрес</string>
-    <string name="wifi_connection_info_titlebar">Информация данной связи</string>
-    <string name="wifi_connect_type_title">Auto connect type</string>
+    <string name="wifi_connection_info_titlebar">Сведения о текущем подключении</string>
+    <string name="wifi_connect_type_title">Тип автоподключения</string>
     <string name="wifi_connect_type_summary">Укажите, следует ли переход к Wi-Fi, когда он доступен</string>
     <string name="wifi_setting_connect_type_error">There was a problem setting the connect type.</string>
     <string name="wifi_priority_type_title">Установить приоритет вручную AP</string>
@@ -2170,61 +2199,79 @@ To add one, you can:
 "</string>
     <string name="msg_wlan_signal_found">Найден WLAN сигнал %s, Вы хотели бы использовать эту сеть WLAN? Using this network will interrupt the data service partially.</string>
     <string name="apn_list_category_title">Список точек доступа</string>
-    <string name="data_conn_category_title">Подключение для передачи данных</string>
-    <string name="wifi_gprs_selector_title">Сеть селектора</string>
-    <string name="data_enabler_title">Данные включены</string>
+    <string name="data_conn_category_title">Соединение для передачи данных</string>
+    <string name="wifi_gprs_selector_title">Селектор сети</string>
+    <string name="data_enabler_title">Передача данных включена</string>
     <string name="data_enabler_summary">Включить доступ к данным по сети мобильной связи</string>
-    <string name="data_enabler_waiting_message">Пожалуйста, подождите ...</string>
-    <string name="data_enabler_enable_timeout_message">Включить подключение для передачи данных тайм-аут</string>
-    <string name="data_enabler_disable_timeout_message">Отключение подключения для передачи данных тайм-аут</string>
+    <string name="data_enabler_waiting_message">Подождите…</string>
+     <string name="data_enabler_enable_timeout_message">Включить ожидание передачи данных</string>
+    <string name="data_enabler_disable_timeout_message">Выключить ожидание передачи данных</string>
     <string name="wifi_security_cmcc">Безопасность</string>
-    <string name="sim_slot">SIM Slot</string>
-    <string name="eap_sim_slot_0">Sim Slot 1</string>
-    <string name="eap_sim_slot_1">Sim Slot 2</string>
-    <string name="eap_sim_aka_airplanemode">Please turn off Airplane mode to use EAP-SIM/AKA</string>
-    <string name="eap_sim_aka_no_sim_error">You must insert a sim card to use EAP-SIM/AKA</string>
-    <string name="eap_sim_aka_no_sim_slot_selected">You must select a sim slot to use EAP-SIM/AKA</string>
+    <string name="sim_slot">Гнездо SIM-карты</string>
+    <string name="eap_sim_slot_0">Гнездо SIM-карты 0</string>
+    <string name="eap_sim_slot_1">Гнездо SIM-карты 1</string>
+    <string name="eap_sim_aka_airplanemode">Для использования EAP-SIM/AKA отключите режим «В самолете»</string>
+    <string name="eap_sim_aka_no_sim_error">Для использования EAP-SIM/AKA следует установить SIM-карту</string>
+    <string name="eap_sim_aka_no_sim_slot_selected">Для использования EAP-SIM/AKA следует выбрать гнездо SIM-карты</string>
     <string name="wifi_priority_changed" formatted="false">Priority old value=%s,new value=%s</string>
-    <string name="wifi_network_netmask">Netmask</string>
+    <string name="wifi_network_netmask">Маска сети</string>
     <string name="wifi_network_netmask_hint">255.255.255.0</string>
-    <string name="confirm_title">Подтверждать</string>
+    <string name="confirm_title">ОК</string>
     <string name="wifi_ctia_test">CTIA Test Mode Setting</string>
     <string name="wifi_ctia_test_summary">CTIA Test Mode configuration</string>
     <string name="ctia_title">Wi-Fi Test Mode</string>
-    <string name="ctia_checkbox">Enable CTIA Test Mode</string>
+    <string name="ctia_checkbox">Включить режим проверки CTIA</string>
     <string name="ctia_dump_checkbox">Enable log for Mgmt Frame</string>
     <string name="ctia_counter_checkbox">Enable log for Tx Rx Counter</string>
     <string name="ctia_rate">Выбор скорости</string>
-    <string name="ctia_flag">SW Flags</string>
+    <string name="ctia_flag">Программные флаги</string>
     <string name="ctia_interval">Период журнала счетчиков(сек)</string>
     <string name="ctia_id">ID</string>
     <string name="ctia_value" />
     <string name="ctia_label">0x</string>
     <string name="ctia_default_val">0</string>
-    <string name="ctia_btn_get">GET</string>
-    <string name="ctia_btn_set">SET</string>
+    <string name="ctia_btn_get">ПОЛУЧИТЬ</string>
+    <string name="ctia_btn_set">УСТАНОВИТЬ</string>
     <string name="ctia_ok">Применить</string>
-    <string name="ctia_cancel">Отмена</string>
-    <string name="proxy_exclusionlist_label_cmcc">Bypass proxy for</string>
-    <string name="pch_toggle_title">GPRS передача предпочитают режиме</string>
-    <string name="pch_data_prefer_summary_off">Предпочтительные данные</string>
-    <string name="pch_call_prefer_summary_on">Предпочтительные звонки</string>
-    <string name="pch_warning_message">Скорость передачи данных будет снижаться.</string>
+    <string name="ctia_cancel">Отклонить</string>
+    <string name="proxy_exclusionlist_label_cmcc">Не использовать прокси для</string>
+    <string name="pch_toggle_title">Предпочт. перед. GPRS</string>
+    <string name="pch_data_prefer_summary_off">предпочтительны данные</string>
+    <string name="pch_call_prefer_summary_on">Предпочтителен вызов</string>
+    <string name="pch_warning_message">Скорость передачи данных снизится.</string>
     <string name="gsm_to_wifi_connect_type_title">Cellular->Wi-Fi</string>
     <string name="wifi_connect_ap_summary">Укажите тип сетевого соединения</string>
     <string name="select_ssid_type_title">Повторный выбор между SSID</string>
     <string name="wifi_signal_found_msg">Слабый уровень сигнала, Вы хотели бы использовать другую сеть WLAN?</string>
     <string name="wifi_tether_configure_ssid_default_for_cmcc">MTK Athens15</string>
-    <string name="move_app_to_where">Переход к %s</string>
-    <string name="wifi_tether_auto_disable_title">Keep Wi-Fi hotspot on</string>
-    <string name="sim_remain">(Остатки:%d)</string>
-    <string name="error_connecting">Не удается подключиться к сети</string>
+    <string name="move_app_to_where">Переместить на %s</string>
+    <string name="wifi_tether_auto_disable_title">Сохранять точку доступа Wi-Fi</string>
+    <string name="sim_remain">(Осталось: %d)</string>
+    <string name="error_connecting">Не удалось подключиться к сети</string>
     <string name="password_mismatch">Новый пароль и его подтверждение не совпадают</string>
     <string name="password_set_successfully">Новый набор пароля резервного копирования</string>
     <string name="password_set_failure">Сбой при настройке резервного копирования пароля</string>
     <string name="software_updates_more_title">Обновления программного обеспечения</string>
     <string name="software_updates_more_summary">Проверить наличие новой версии программного обеспечения</string>
     <string name="software_updates_scomo_summary">Проверить новую версию приложения</string>
+    <string name="gps_time_sync_attention_gps_on">"It will take at most 1 minute to obtain GPS fix. Besides, GPS may fail to provide time due to weak environmental signal.
+
+Are you sure to use GPS provided time?"</string>
+    <string name="gps_time_sync_attention_gps_off">"To use GPS provided time, you must enable GPS first. It then take at most 1 minute to obtain GPS fix. Besides, GPS may fail to provide time due to weak environmental signal. 
+
+Are you sure to enable GPS now and wait for GPS provided time?"</string>
+    <string name="mtp_transfer_unmount_error_text">Карта памяти не может быть размонтирована во время передачи файлов</string>
+    <string name="mtp_transfer_erase_error_text">Карта памяти не может быть очищена во время передачи файлов</string>
+    <string name="mtk_thememanager_title">Тема</string>
+    <string name="default_name">Default</string>
+    <string name="custom_theme_name">New [%1$s]</string>
+    <string name="loading">Загрузка...</string>
+    <string name="display_settings_scences_title">Scenes</string>
+    <string name="cmcc_trust_access_points">Default credible access points</string>
+    <string name="cmcc_configed_access_points">Credible access points</string>
+    <string name="cmcc_new_access_points">Unknown access points</string>
+    <string name="battery_percent">Battery Percentage</string>
+    <string name="rcse_settings_title">RCS-e settings</string>
     <string name="common_settings_title">ОБЩИЕ</string>
     <string name="settings_title">ВСЕ НАСТРОЙКИ</string>
     <string name="custom_frequent_foot_btn_text">Изменить....</string>
@@ -2254,6 +2301,10 @@ To add one, you can:
     <string name="usbclean_title">Очистить USB хранилище</string>
     <string name="internalclean_title">Очистить внутреннюю память</string>
     <string name="memory_others">Другие</string>
+    <string name="calculate_size">Calculating to clean up space ...</string>
+    <string name="clean_size">Cleaning up space...</string>
+    <string name="calculate_size_result">For cleaning up the space</string>
+    <string name="clean_size_result">You release</string>
     <string name="clean_all_storage">Очистить все</string>
     <string name="clean_add_msg">Очистить</string>
     <string name="clean_add_title">Очистить</string>
@@ -2267,25 +2318,32 @@ To add one, you can:
     <string name="size_available">Доступный</string>
     <string name="gsm_umts_network_preferences_default_values">0</string>
     <string name="notify_dialog_message">Требуется перезагрузка, чтобы изменения вступили в силу. Перезагрузить сейчас?</string>
+    <string name="sim_setting_guide_continue">Продолжить</string>
+    <string name="sim_setting_guide_cancel">Отмена</string>
+    <string name="ring_title">Ring(call、message、notification)</string>
+    <string name="labi_sync_title">Sync Contact</string>
+    <string name="labi_sync_summary">Sync Contact to Labi</string>
+    <string name="labi_recovery_title">Recover Contact</string>
+    <string name="labi_recovery_summary">Recover Contact from Labi</string>
+    <string name="account_settings_title">Account Settings</string>
+    <string name="account_manage_title">Modify account info</string>
+    <string name="account_info_change">Modify account information</string>
+    <string name="ACCOUNT_LABEL">Lewa Pond</string>
+    <string name="lewa_account">Lewa Account</string>
     <string name="haptic_feedback_enable_summary">Вибрация при нажатии кнопок и экрана</string>
     <string name="key_label">Софт-клавиши</string>
     <string name="keyboard_lights_title">Педсветка кнопок</string>
     <string name="keyboard_lights_summary">Включить подсветку софт клавиш</string>
-    <string name="title_charger_over_voltage">За зарядного напряжения</string>
-    <string name="title_battery_over_temperature">За температуру батареи</string>
-    <string name="title_over_current_protection">Защита от сверхтока</string>
-    <string name="title_battery_over_voltage">За Напряжение аккумулятора</string>
-    <string name="title_safety_timer_timeout">За время зарядки</string>
-    <string name="msg_charger_over_voltage">Ваше зарядное устройство от перенапряжения, пожалуйста, отключите зарядное устройство!</string>
-    <string name="msg_battery_over_temperature">Ваш аккумулятор от перегрева, пожалуйста, извлеките аккумулятор!</string>
-    <string name="msg_over_current_protection">Ваш аккумулятор от перегрузки по току защиты, пожалуйста, извлеките аккумулятор!</string>
-    <string name="msg_battery_over_voltage">Ваша батарея перенапряжение, пожалуйста, извлеките аккумулятор!</string>
-    <string name="msg_safety_timer_timeout">Время зарядки слишком долгое, пожалуйста, отключите зарядное устройство!</string>
-    <string name="btn_ok_msg">Snooze</string>
-    <string name="btn_cancel_msg">Dismiss</string>
-    <string name="sim_china_mobile">China Mobile</string>
-    <string name="sim_china_telecom">China Telecom</string>
-    <string name="sim_china_unicom">China Unicom</string>
-    <item type="string" name="BART_DUMMY_0894">false</item>
-    <item type="string" name="BART_DUMMY_0896">false</item>
+    <string name="title_charger_over_voltage">Превышено напряжение на зарядном устройстве</string>
+    <string name="title_battery_over_temperature">Перегрев батареи</string>
+    <string name="title_over_current_protection">Защита от перегрузки по току</string>
+    <string name="title_battery_over_voltage">Превышено напряжение на батарее</string>
+    <string name="title_safety_timer_timeout">Превышено время зарядки</string>
+    <string name="msg_charger_over_voltage">Превышено напряжение на зарядном устройстве, отключите зарядное устройство!</string>
+    <string name="msg_battery_over_temperature">Батарея перегрелась, извлеките батарею!</string>
+    <string name="msg_over_current_protection">Сработала защита батареи от перегрузки по току, извлеките батарею!</string>
+    <string name="msg_battery_over_voltage">Превышено напряжение на батарее, извлеките батарею!</string>
+    <string name="msg_safety_timer_timeout">Зарядка длится слишком долго, отключите зарядное устройство!</string>
+    <string name="btn_ok_msg">Отложить</string>
+    <string name="btn_cancel_msg">Отключить</string>
 </resources>

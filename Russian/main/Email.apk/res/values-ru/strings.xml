@@ -1,5 +1,46 @@
 <?xml version="1.0" encoding="utf-8"?>
+<!--Decoded by jBART (BurgerZ <az.burgerz@gmail.com)>-->
 <resources>
+    <string name="build_number">20080722-0001</string>
+    <string name="not_add_more_text">Невозможно добавить дополнительный текст</string>
+    <string name="message_compose_foward_profix">Вперед</string>
+    <string name="message_compose_reply_profix">Назад</string>
+    <string name="attach_image">Фото</string>
+    <string name="attach_video">Видео</string>
+    <string name="attach_sound">Музыка</string>
+    <string name="attach_contact">Контакты</string>
+    <string name="attach_file">Файл</string>
+    <string name="attach_calender">Календарь</string>
+    <string name="attach_error_occurred">Нет приложения, поддерживающего вложение данного типа.</string>
+    <string name="low_storage_service_stop">Служба электронной почты остановлена из-за нехватки памяти</string>
+    <string name="low_storage_hint_delete_mail">Для освобождения памяти можно удалить ненужные сообщения электронной почты или неиспользуемые приложения</string>
+    <string name="low_storage_service_start">Служба электронной почты снова запущена, так как памяти для ее работы сейчас достаточно</string>
+    <string name="low_storage_attachment_cannot_download">Невозможно загрузить вложение из-за нехватки памяти</string>
+    <string name="low_storage_attachment_cannot_view">Невозможно просмотреть вложение из-за нехватки памяти</string>
+    <string name="download_remaining">Остающиеся загрузки</string>
+    <string name="downloading_remaining">Загрузка ...</string>
+    <string name="unable_to_connect">Невозможно подключиться</string>
+    <string name="need_connection_prompt">Для использования данного приложения требуется подключение к сети. Включите мобильную сеть или WiFi в меню настроек.</string>
+    <string name="connection_settings">Настройки</string>
+    <string name="too_many_attachments">Невозможно добавить слишком много вложений. Будут добавлены только первые %1$d вложений.</string>
+    <string name="not_add_more_attachments">Невозможно добавить дополнительные вложения. Ограничение составляет %1$d вложений.</string>
+    <string name="attachment_overflow">Переполнение вложений</string>
+    <string name="cannot_add_this_attachment">Невозможно добавить данное вложение</string>
+    <string name="loading_attachment">Загрузка вложений...</string>
+    <string name="error_in_account_setup">Ошибка при создании новой учетной записи.</string>
+    <string name="open_message_parsing">Анализ сообщения...</string>
+    <string name="open_message_update_db">Обновление базы данных...</string>
+    <string name="open_message_update_ui">Загрузка сообщения...</string>
+    <string name="please_wait">Операция выполняется. Пожалуйста, подождите…</string>
+    <string name="delete_message_dialog_title">Удалить сообщение.</string>
+    <string name="delete_message_confirm">Удалить данное сообщение?</string>
+    <string name="attachment_info_deleted">Данное приложение невозможно сохранить или открыть, т.к. оно, возможно, удалено.</string>
+    <string name="send_failed_ticker">%s не удалось при отправке электронной почты.</string>
+    <string name="send_failed_title">Не удалось при отправке электронной почты</string>
+    <string name="general_preference_auto_download_remaining_label">Оставшиеся автозагрузки</string>
+    <string name="general_preference_auto_download_remaining_summary">Оставшиеся автозагрузки при прокрутке назад</string>
+    <string name="always_bcc_myself">Всегда использовать скрытую копию</string>
+    <string name="always_bcc_myself_summary">Всегда использовать режим скрытой копии при составлении, ответе и отправке электронной почты</string>
     <string name="permission_read_attachment_label">Открывать прикрепленные файлы</string>
     <string name="permission_read_attachment_desc">Приложение получит доступ к прикрепленным файлам в сообщениях эл. почты.</string>
     <string name="permission_access_provider_label">Доступ к данным сервиса эл. почты</string>
@@ -26,7 +67,7 @@
     <string name="show_quick_text_list_dialog_action">Вставить быстрый ответ</string>
     <string name="read_action">Отметить как прочитанное</string>
     <string name="unread_action">Отметить как непрочитанное</string>
-    <string name="set_star_action">Добавить пометку</string>
+    <string name="set_star_action">Пометить</string>
     <string name="remove_star_action">Снять пометку</string>
     <string name="refresh_action">Обновление</string>
     <string name="add_account_action">Добавить аккаунт</string>
@@ -53,6 +94,12 @@
     <string name="notification_to_account">Кому: %1$s</string>
     <string name="notification_multiple_new_messages_fmt">Новых сообщений: %1$d</string>
     <string name="account_name_display_all">Все аккаунты</string>
+    <string name="mailbox_name_server_inbox">Inbox</string>
+    <string name="mailbox_name_server_outbox">Outbox</string>
+    <string name="mailbox_name_server_drafts">Drafts</string>
+    <string name="mailbox_name_server_trash">Trash</string>
+    <string name="mailbox_name_server_sent">Sent</string>
+    <string name="mailbox_name_server_junk">Junk</string>
     <string name="mailbox_name_display_inbox">Входящие</string>
     <string name="mailbox_name_display_outbox">Исходящие</string>
     <string name="mailbox_name_display_drafts">Черновики</string>
@@ -64,6 +111,13 @@
     <string name="picker_mailbox_name_all_inbox">Входящие (все)</string>
     <string name="picker_combined_view_fmt">Комбинированный вид (%s)</string>
     <string name="debug_version_fmt">Версия: %s</string>
+    <string name="debug_enable_debug_logging_label">Enable extra debug logging?</string>
+    <string name="debug_enable_exchange_logging_label">Enable exchange parser logging? (extremely verbose)</string>
+    <string name="debug_enable_exchange_file_logging_label">Enable exchange sd card logging?</string>
+    <string name="debug_clear_webview_cache">Clear WebView cache</string>
+    <string name="debug_disable_graphics_acceleration_label">Disable hardware graphics acceleration</string>
+    <string name="debug_force_one_minute_refresh_label">Force 1-minute refresh for POP/IMAP</string>
+    <string name="debug_enable_strict_mode_label">Enable strict mode (with logging)</string>
     <string name="account_folder_list_summary_inbox">Входящие</string>
     <string name="account_folder_list_summary_starred">Помеченные</string>
     <string name="account_folder_list_summary_drafts">Черновики</string>
@@ -196,6 +250,10 @@
     <string name="account_setup_account_type_title">Настройка аккаунта</string>
     <string name="account_setup_account_type_headline">Тип аккаунта</string>
     <string name="account_setup_account_type_instructions">Выберите тип аккаунта</string>
+    <string name="account_setup_account_type_pop_action">POP3</string>
+    <string name="account_setup_account_type_imap_action">IMAP</string>
+    <string name="account_setup_account_type_exchange_action">Exchange</string>
+    <string name="account_setup_account_type_exchange_action_alternate">Microsoft Exchange ActiveSync</string>
     <string name="account_setup_incoming_title">Настройка аккаунта</string>
     <string name="account_setup_incoming_headline">Настройки сервера входящих сообщений</string>
     <string name="account_setup_incoming_username_label">Имя пользователя</string>
@@ -390,14 +448,14 @@
     <string name="widget_loading">Загрузка...</string>
     <string name="widget_touch_to_configure">Нажмите для настройки.</string>
     <string name="widget_no_accounts">Вы еще не добавили аккаунт электронной почты.</string>
-    <string name="widget_no_mailboxes">Аккаунт не синхронизирован. Повторите попытку позже.</string>
     <string name="more_than_999">999+</string>
     <string name="search_hint">Искать в электронной почте</string>
     <string name="search_mailbox_hint">Искать в папке \"%1$s\"</string>
-    <string name="search_header_text_fmt">Результаты</string>
+    <string name="search_header_text_fmt">Результаты поиска для \"%1$s\"</string>
     <string name="search_slow_warning_title">Ожидание результатов</string>
     <string name="search_slow_warning_message">Ожидание ответа от сервера может занять много времени.</string>
     <string name="action_bar_mailbox_list_title">Папки</string>
+    <string name="long_string">looooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooooong</string>
     <string name="require_manual_sync_message">Для этого аккаунта отключена фоновая синхронизация в роуминге.</string>
     <string name="application_name">Загрузка с телефона</string>
     <string name="picasa_default_destination">Альбом для загрузки с телефона</string>
@@ -532,9 +590,6 @@
     <string name="preference_plus_sync_all_prompt_text">Добавление фотографий и видеороликов, не загруженных из телефона в личный веб-альбом, может занять некоторое время. Этот процесс будет выполняться в фоновом режиме. Продолжить?</string>
     <string name="preference_plus_sync_all_prompt_yes">Да</string>
     <string name="preference_plus_sync_all_prompt_no">Нет</string>
-    <string name="multiple_new_message_notification_item"><b>%1$s</b>: %2$s</string>
-    <string name="single_new_message_notification_big_text">"%1$s
-%2$s"</string>
     <string name="choosertitle_sharevia">Способ отправки</string>
     <string name="contextmenu_openlink">Открыть в браузере</string>
     <string name="contextmenu_copy">Копировать</string>
@@ -548,7 +603,6 @@
     <string name="contextmenu_help">Справка</string>
     <string name="contextmenu_feedback">Отправить отзыв</string>
     <string name="more_string">еще %1$s...</string>
-    <string name="copy_email">Скопировать адрес эл. почты</string>
-    <string name="copy_number">Скопировать номер телефона</string>
-    <string name="done">Назад</string>
+    <string name="chips_waiting_for_directory_result">Ожидание ответов</string>
+    <string name="copy">Скопировать адрес эл. почты</string>
 </resources>
