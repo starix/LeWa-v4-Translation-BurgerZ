@@ -7,7 +7,7 @@
     <string name="app_setting_name">Настройки</string>
     <string name="app_title">Intercept</string>
     <string name="app_block_name">Список имен</string>
-    <string name="app_blocksms_name">SMS</string>
+    <string name="app_blocksms_name">Сообщения</string>
     <string name="app_blockcall_name">Вызовы</string>
     <string name="app_blockrule_name">Настройки блокировки</string>
     <string name="app_addblock_name">Добавить имя в черный список</string>
