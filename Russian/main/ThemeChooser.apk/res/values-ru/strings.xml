@@ -92,7 +92,7 @@
     <string name="sdcardfull">SD карта переполнена, невозможно загрузить миниатюру</string>
     <string name="init_install_theme">Инициализация темы, пожалуйста, подождите...</string>
     <string name="apply_font">apply font</string>
-    <string name="apply_font_success">apply font successfully need to restart</string>
+    <string name="apply_font_success">Шрифты установлены. Необходима перезагрузка.</string>
     <string name="apply_font_sure">Перезагрузить</string>
     <string name="apply_font_cancel">Отменить</string>
 </resources>
