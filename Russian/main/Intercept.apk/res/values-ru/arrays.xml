@@ -6,4 +6,9 @@
         <item>Перехват вызовов</item>
         <item>Перехват сообщений</item>
     </string-array>
+    <integer-array name="modes_array_int">
+        <item>3</item>
+        <item>1</item>
+        <item>2</item>
+    </integer-array>
 </resources>
