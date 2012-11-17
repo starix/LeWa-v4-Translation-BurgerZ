@@ -1094,7 +1094,7 @@ Incompleted: %d"</string>
     <string name="anonymous_recipient">Аноним</string>
     <string name="view_picture">Просмотреть картинку</string>
     <string name="save_message_to_sim">Сохранить сообщение на SIM</string>
-    <string name="sent_on">Отправлено: %s</string>
+    <string name="sent_on">Отправлено в: %s</string>
     <string name="received_on">Полученные: %s</string>
     <string name="save_message_to_sim_successful">Сохранение выполнено</string>
     <string name="save_message_to_sim_unsuccessful">Сохранение не выполнено</string>
@@ -1327,7 +1327,7 @@ Incompleted: %d"</string>
     <string name="pref_summary_save_location">Папка для сохранения вложений сообщений</string>
     <string name="remove_subject">удалите тему</string>
     <string name="message_compose_menu_mms_resend_label">переслать mms</string>
-    <string name="message_item_received_label">Отправка:</string>
+    <string name="message_item_received_label">Доставлено в :</string>
     <string name="sms_backup_location">Место резервного копирования SMS</string>
     <string name="prefs_ims_settings">Настройка бесплатных сообщений</string>
     <string name="prefs_ims_close_title">Сервис бесплатных сообщений</string>
@@ -1336,12 +1336,12 @@ Incompleted: %d"</string>
     <string name="prefs_ims_aout_to_sms_summary_mode">Автомотически пересылать бесплатные сообщения по СМС если нет доступа к сети.</string>
     <string name="message_ims_user_service_message_info">Free information service is more powerful than ordinary information, voice intercom chat network easily with online contacts, text chat, save money to send pictures and other multimedia information and communication experience unlimited fun.</string>
     <string name="message_ims_user_service_open">Присоедениться</string>
-    <string name="message_ims_user_service_to_later">Пойзже</string>
-    <string name="message_ims_user_service_check_protocol">Читать Пользовательское соглашение</string>
+    <string name="message_ims_user_service_to_later">Позже</string>
+    <string name="message_ims_user_service_check_protocol">Читать Полз-ое соглашение</string>
     <string name="message_ims_user_protocol">user protocol</string>
-    <string name="message_early">раньше</string>
-    <string name="message_today">сегодня</string>
-    <string name="message_yesterday">вчера</string>
+    <string name="message_early">Раньше</string>
+    <string name="message_today">Сегодня</string>
+    <string name="message_yesterday">Вчера</string>
     <string name="compose_voice_button">Hold to Talk</string>
     <string name="compose_recorder_no_press">Unsent attachments!</string>
     <string name="message_sd_card_min_size">SD card memory is not enough.</string>

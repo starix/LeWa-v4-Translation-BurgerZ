@@ -56,11 +56,11 @@
     <string name="theme_no_data">Нет данных</string>
     <string name="delete_system_theme">"Системная тема не может быть удалена"</string>
     <string name="delete_using_theme">"Текущая тема не может быть удалена"</string>
-    <string name="custom_lockscreen">custom lock screen</string>
-    <string name="custom_desktop">custom the desktop</string>
-    <string name="custom_system">custom the system</string>
+    <string name="custom_lockscreen">настройки локскрина</string>
+    <string name="custom_desktop">настройки рабочего стола</string>
+    <string name="custom_system">настройки системы</string>
     <string name="lockscreen_wallpaper">Обои экрана блокировки</string>
-    <string name="lockscreen_style">Стиль акрана блокировки</string>
+    <string name="lockscreen_style">Стиль экрана блокировки</string>
     <string name="custom_icon">Ярлыки</string>
     <string name="desktop_style">Стиль рабочего стола</string>
     <string name="desktop_wallpaper">Стиль обоев</string>

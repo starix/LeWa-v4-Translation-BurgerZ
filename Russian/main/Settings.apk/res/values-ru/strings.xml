@@ -2262,7 +2262,7 @@ Are you sure to use GPS provided time?"</string>
 Are you sure to enable GPS now and wait for GPS provided time?"</string>
     <string name="mtp_transfer_unmount_error_text">Карта памяти не может быть размонтирована во время передачи файлов</string>
     <string name="mtp_transfer_erase_error_text">Карта памяти не может быть очищена во время передачи файлов</string>
-    <string name="mtk_thememanager_title">Тема</string>
+    <string name="mtk_thememanager_title">Theme</string>
     <string name="default_name">Default</string>
     <string name="custom_theme_name">New [%1$s]</string>
     <string name="loading">Загрузка...</string>

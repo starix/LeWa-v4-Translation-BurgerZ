@@ -323,4 +323,6 @@
     <string name="notifilter_activity_title">Настройка фильтра уведомлений</string>
     <string name="power_battery_fulltitle">Заряд батареи</string>
     <string name="power_battery_full">Батарея полностью заряжена. Оключите зарядку</string>
+	<string name="lockscreen_expanded">Статусбар в заблокированном состоянии</string>
+    <string name="lockscreen_expanded_comman">активно в заблокированном состоянии</string>
 </resources>

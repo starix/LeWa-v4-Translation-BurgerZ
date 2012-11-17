@@ -222,7 +222,7 @@
     <string name="artist_company">Brokerage company:</string>
     <string name="artist_intro">Информация об артисте</string>
     <string name="info_loading">Детали об исполнители загружаются~(@^_^@)~</string>
-    <string name="info_notfound">Детали об исполнители не найдена-_-#</string>
+    <string name="info_notfound">Детали об исполнители не найдены-_-#</string>
     <string name="info_neterror">Пожалуйста проверьте подключение-_-!</string>
     <string name="albumInfo">Информация об альбоме</string>
     <string name="artist_detail">Информация об артисте</string>
